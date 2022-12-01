@@ -1,6 +1,6 @@
 import strutils
 
-## first part
+## part 1
 let content = readFile("input")
 
 var 
@@ -16,7 +16,7 @@ for line in splitLines(content):
 
 echo max(data)
 
-## second part
+## part 2
 var topThree = 0
 for index in 0..2:
     let 
