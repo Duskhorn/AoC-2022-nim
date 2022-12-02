@@ -37,7 +37,6 @@ type Ending = enum
 proc points(val: int, ending: Ending): int =
     result += val + 3 * ending.int  
 
-
 proc output(c: char): Ending =
     case c
     of 'X': result = Loss
