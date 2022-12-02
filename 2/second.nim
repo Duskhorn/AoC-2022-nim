@@ -28,6 +28,7 @@ for line in content.splitLines():
 
 echo res
 
+
 ## part 2
 type Ending = enum 
     Loss,
